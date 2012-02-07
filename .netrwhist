@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/user/projects/gtk/status'
+let g:netrw_dirhist_2='/home/user/projects/python'
+let g:netrw_dirhist_3='/home/user/projects/ruby/orange_chicken'
+let g:netrw_dirhist_4='/home/user/projects/python'
+let g:netrw_dirhist_5='/home/user/projects/spicy tuna/templates/modules'
+let g:netrw_dirhist_6='/home/user/projects/spicy tuna/templates'
+let g:netrw_dirhist_7='/home/user/projects/python/stout'
+let g:netrw_dirhist_8='/home/user/projects/python/spicy tuna'

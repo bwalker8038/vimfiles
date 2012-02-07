@@ -1,0 +1,55 @@
+Shortcut list:
+
+F1              -   Opens NERDTree in current buffer directory or Rails project root
+F2              -   Opens Buffer list
+F3              -   Previous Buffer
+F4              -   Next Buffer
+
+F5              -   Toggle between wrap and nowrap lines
+F6              -   Toggle between display special characters (line endings, tabs)
+
+Ctrl+F4         -   Close current file
+Ctrl+X          -   Close current file
+Shift+F4        -   Close current file without saving
+Ctrl+Q          -   Visual Mode (Replaces <C-V>)
+Shift+Tab       -   Inserts a Hard Tab in insert mode
+
+<leader><tab>   -   Rotate thru windows
+<leader>R       -   Reindent file and strips trailing whitespaces
+<leader>W       -   Strip spaces from the end of lines (entire file)
+<leader>mm      -   Remove windows ^M
+<leader>m       -   Opens Most Recently Used file list
+<leader>ci      -   Toggles block comment/uncomment
+<leader>t       -   Opens Command-T fuzzy file finder
+<leader>d       -   Duplicates current line
+<leader>space   -   Clear search highlight
+<leader>s       -   Split window vertically and switch to it
+<leader>h       -   Split window horizontally and switch to it
+<leader>e       -   Edits vimrc file
+<leader>tl      -   Opens Taglist-plus tag browser
+
+Ctrl+n          -   Create new empty buffer
+Ctrl+C          -   Copy
+Ctrl+V          -   Paste
+Ctrl+X          -   Cut
+Ctrl+S          -   Save file
+Ctrl+Z          -   Undo
+Ctrl+Y          -   Redo
+Ctrl+A          -   Select all
+Ctrl+n          -   Autocomplete
+Alt+w           -   Close window
+,               -   Quick search current word under cursor
+
+
+Ctrl+up         -   Move current line up(Also works with selection)
+Ctrl+down       -   Move current line down(Also works with selection)
+
+
+Alt+left        -   Set line bookmark
+Alt+right       -   Set line bookmark
+Alt+up          -   Go to previous line bookmark
+Alt+down        -   Go to next line bookmark
+
+>               -   Indent selected text
+<               -   Dedent selected text
+

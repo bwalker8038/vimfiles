@@ -1,0 +1,20 @@
+have_header: checking for ruby.h... -------------------- yes
+
+"gcc -o conftest -I/home/brad/.rvm/rubies/ruby-1.9.3-p0/include/ruby-1.9.1/x86_64-linux -I/home/brad/.rvm/rubies/ruby-1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/home/brad/.rvm/rubies/ruby-1.9.3-p0/include/ruby-1.9.1 -I. -I/home/brad/.rvm/usr/include     -O3 -ggdb -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC conftest.c  -L. -L/home/brad/.rvm/rubies/ruby-1.9.3-p0/lib -Wl,-R/home/brad/.rvm/rubies/ruby-1.9.3-p0/lib -L/home/brad/.rvm/usr/lib -Wl,-R/home/brad/.rvm/usr/lib -L.  -rdynamic -Wl,-export-dynamic     -Wl,-R -Wl,/home/brad/.rvm/rubies/ruby-1.9.3-p0/lib -L/home/brad/.rvm/rubies/ruby-1.9.3-p0/lib -lruby  -lpthread -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main() {return 0;}
+/* end */
+
+"gcc -E -I/home/brad/.rvm/rubies/ruby-1.9.3-p0/include/ruby-1.9.1/x86_64-linux -I/home/brad/.rvm/rubies/ruby-1.9.3-p0/include/ruby-1.9.1/ruby/backward -I/home/brad/.rvm/rubies/ruby-1.9.3-p0/include/ruby-1.9.1 -I. -I/home/brad/.rvm/usr/include     -O3 -ggdb -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration  -fPIC  conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <ruby.h>
+/* end */
+
+--------------------
+
